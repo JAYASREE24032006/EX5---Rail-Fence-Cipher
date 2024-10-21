@@ -1,22 +1,21 @@
-# EX5 - Rail Fence Cipher
+# EX5 - RAIL FENCE CIPHER
+## AIM :
+To implement a program to encrypt a plain text and decrypt a cipher text using Rail Fence Cipher substitution technique.
 
-## AIM:
-To develop a simple C program to implement Rail Fence Cipher.
-
-## DESIGN STEPS:
-### Step 1:
+## DESIGN STEPS :
+### STEP 1 :
 Design of Rail Fence Cipher algorithnm
 
-### Step 2:
+### STEP 2 :
 Implementation using C or pyhton code
 
-### Step 3:
+### STEP 3 :
 Testing algorithm with different key values.
 
-## ALGORITHM DESCRIPTION:
+## ALGORITHM DESCRIPTION :
 In the rail fence cipher, the plaintext is written downwards and diagonally on successive "rails" of an imaginary fence, then moving up when we reach the bottom rail. When we reach the top rail, the message is written downwards again until the whole plaintext is written out. The message is then read off in rows.
 
-## PROGRAM:
+## PROGRAM :
 ```
 #include <stdio.h>
 #include <string.h>
@@ -76,11 +75,11 @@ int main()
 ```
 
  
-## OUTPUT:
+## OUTPUT :
 ![image](https://github.com/user-attachments/assets/962d4b37-3ebe-4d77-a299-e2efce84f4f2)
 
 
 
-## RESULT:
-The program is executed successfully.
+## RESULT :
+The program to encrypt a plain text and decrypt a cipher text using Rail Fence Cipher substitution technique is executed successfully.
 
