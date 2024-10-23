@@ -1,8 +1,9 @@
 # EX5 - RAIL FENCE CIPHER
 ## AIM :
 To implement a program to encrypt a plain text and decrypt a cipher text using Rail Fence Cipher substitution technique.
-
-## DESIGN STEPS :
+## THEORM :
+The Rail Fence Cipher is a type of transposition cipher where plaintext is written in a zigzag pattern across multiple rows (like rails of a fence) and then read row by row to form the ciphertext. It's a simple encryption technique used for obscuring messages.
+## ALGORITHM :
 ### STEP 1 :
 Design of Rail Fence Cipher algorithnm
 
@@ -12,8 +13,6 @@ Implementation using C or pyhton code
 ### STEP 3 :
 Testing algorithm with different key values.
 
-## ALGORITHM DESCRIPTION :
-In the rail fence cipher, the plaintext is written downwards and diagonally on successive "rails" of an imaginary fence, then moving up when we reach the bottom rail. When we reach the top rail, the message is written downwards again until the whole plaintext is written out. The message is then read off in rows.
 
 ## PROGRAM :
 ```
